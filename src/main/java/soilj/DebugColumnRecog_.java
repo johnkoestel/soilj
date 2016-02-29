@@ -1,12 +1,12 @@
-package SoilJ;
+package soilj;
 
 import ij.IJ;
 import ij.ImagePlus;
 import ij.plugin.PlugIn;
-import SoilJ.tools.ImageManipulator;
-import SoilJ.tools.InputOutput;
-import SoilJ.tools.MenuWaiter;
-import SoilJ.tools.ObjectDetector;
+import soilj.tools.ImageManipulator;
+import soilj.tools.InputOutput;
+import soilj.tools.MenuWaiter;
+import soilj.tools.ObjectDetector;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package SoilJ.copiedTools;
+package soilj.copiedTools;
 
 /**
  * MeasureSurface plugin for ImageJ

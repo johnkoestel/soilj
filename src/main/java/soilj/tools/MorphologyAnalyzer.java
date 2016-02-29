@@ -1,4 +1,4 @@
-package SoilJ.tools;
+package soilj.tools;
 
 import java.awt.Color;
 import java.io.File;
@@ -11,11 +11,11 @@ import java.util.Vector;
 import org.scijava.vecmath.Point3f;
 
 import sc.fiji.localThickness.*;
-import SoilJ.copiedTools.JAnisotropy;
-import SoilJ.copiedTools.JFractalCount;
-import SoilJ.copiedTools.JParticleCounter;
-import SoilJ.tools.InputOutput;
-import SoilJ.tools.ObjectDetector;
+import soilj.copiedTools.JAnisotropy;
+import soilj.copiedTools.JFractalCount;
+import soilj.copiedTools.JParticleCounter;
+import soilj.tools.InputOutput;
+import soilj.tools.ObjectDetector;
 import Jama.EigenvalueDecomposition.*;
 
 import ij.IJ;

@@ -1,4 +1,4 @@
-package SoilJ.tools;
+package soilj.tools;
 
 import java.awt.Color;
 import java.io.File;

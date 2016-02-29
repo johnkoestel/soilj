@@ -1,4 +1,4 @@
-package SoilJ.tools;
+package soilj.tools;
 
 import ij.IJ;
 import ij.ImagePlus;
@@ -15,8 +15,8 @@ import ij.process.ByteProcessor;
 import ij.process.FloatProcessor;
 import ij.process.ImageProcessor;
 import ij.process.ShortProcessor;
-import SoilJ.tools.ObjectDetector;
-import SoilJ.tools.ObjectDetector.ColumnContainer;
+import soilj.tools.ObjectDetector;
+import soilj.tools.ObjectDetector.ColumnContainer;
 
 import java.awt.Polygon;
 import java.util.ArrayList;
@@ -32,7 +32,7 @@ import org.apache.commons.math3.exception.NotStrictlyPositiveException;
 import org.apache.commons.math3.stat.StatUtils;
 import org.apache.commons.math3.stat.descriptive.rank.Median;
 
-import SoilJ.copiedTools.JParticleCounter;
+import soilj.copiedTools.JParticleCounter;
 
 public class ImageManipulator implements PlugIn {
 	

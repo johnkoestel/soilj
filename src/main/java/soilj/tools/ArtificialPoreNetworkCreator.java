@@ -1,4 +1,4 @@
-package SoilJ.tools;
+package soilj.tools;
 
 import java.awt.Color;
 import java.util.Random;
@@ -10,7 +10,7 @@ import ij.gui.OvalRoi;
 import ij.plugin.PlugIn;
 import ij.process.ByteProcessor;
 import ij.process.ImageProcessor;
-import SoilJ.tools.InputOutput;
+import soilj.tools.InputOutput;
 
 public class ArtificialPoreNetworkCreator implements PlugIn {
 

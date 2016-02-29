@@ -1,4 +1,4 @@
-package SoilJ.tools;
+package soilj.tools;
 
 import ij.IJ;
 import ij.ImagePlus;
@@ -31,7 +31,7 @@ import org.apache.commons.io.IOUtils;
 import org.apache.commons.math3.stat.StatUtils;
 import org.apache.commons.math3.stat.descriptive.rank.Percentile;
 
-// this file collects SoilJ classes that handle IO operations
+// this file collects soilj classes that handle IO operations
 
 public class InputOutput extends ImagePlus implements PlugIn {
 	

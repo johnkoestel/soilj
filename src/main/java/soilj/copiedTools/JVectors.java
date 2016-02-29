@@ -1,4 +1,4 @@
-package SoilJ.copiedTools;
+package soilj.copiedTools;
 
 import org.doube.geometry.Trig;
 import org.scijava.vecmath.Point3f;

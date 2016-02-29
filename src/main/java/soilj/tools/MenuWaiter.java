@@ -1,10 +1,10 @@
-package SoilJ.tools;
+package soilj.tools;
 
 import ij.gui.GenericDialog;
 import ij.plugin.PlugIn;
 import ij.process.AutoThresholder;
 import ij.process.AutoThresholder.Method;
-import SoilJ.tools.ObjectDetector.ApproximateColumnIllumination;
+import soilj.tools.ObjectDetector.ApproximateColumnIllumination;
 
 public class MenuWaiter implements PlugIn {
 

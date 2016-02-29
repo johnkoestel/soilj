@@ -1,13 +1,13 @@
-package SoilJ;
+package soilj;
 import ij.ImagePlus;
 import ij.plugin.PlugIn;
 import ij.process.AutoThresholder;
-import SoilJ.tools.DisplayThings;
-import SoilJ.tools.HistogramStuff;
-import SoilJ.tools.InputOutput;
-import SoilJ.tools.MenuWaiter;
-import SoilJ.tools.RollerCaster;
-import SoilJ.tools.TailoredMaths;
+import soilj.tools.DisplayThings;
+import soilj.tools.HistogramStuff;
+import soilj.tools.InputOutput;
+import soilj.tools.MenuWaiter;
+import soilj.tools.RollerCaster;
+import soilj.tools.TailoredMaths;
 
 import java.io.File;
 
@@ -85,7 +85,7 @@ public class T2_HistoGrammar_ extends ImagePlus implements PlugIn  {
 		jIO.saveHistogram(mFC.myGaugeFolder, myBulkHistogram, outPath, "BulkHistogram");		
 		
 		//find thresholds
-		SoilJ.tools.RollerCaster cast = new SoilJ.tools.RollerCaster();
+		soilj.tools.RollerCaster cast = new soilj.tools.RollerCaster();
 		double[] medianFilteredBulkHistogram = cast.castInt2Double(myBulkHistogram);//, 11);  //maths.oneDMedianFilter
 		double[] greyValues = new double[medianFilteredBulkHistogram.length];
 		for (i = 0 ; i < greyValues.length ; i++) greyValues[i] = i;

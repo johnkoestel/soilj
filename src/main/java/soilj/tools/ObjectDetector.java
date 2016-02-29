@@ -1,4 +1,4 @@
-package SoilJ.tools;
+package soilj.tools;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -24,10 +24,10 @@ import ij.process.ShortProcessor;
 import org.apache.commons.math3.stat.StatUtils;
 import org.apache.commons.math3.stat.descriptive.rank.Median;
 
-import SoilJ.copiedTools.JParticleCounter;
+import soilj.copiedTools.JParticleCounter;
 import process3d.Dilate_;
 import process3d.Erode_;
-import SoilJ.tools.HistogramStuff.IlluminationInfo;
+import soilj.tools.HistogramStuff.IlluminationInfo;
 
 public class ObjectDetector implements PlugIn {
 

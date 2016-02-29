@@ -1,4 +1,4 @@
-package SoilJ.copiedTools;
+package soilj.copiedTools;
 /**
  *Anisotropy plugin for ImageJ
  *Copyright 2009 2010 2011 2012 Michael Doube 

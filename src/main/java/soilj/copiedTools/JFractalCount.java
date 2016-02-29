@@ -1,4 +1,4 @@
-package SoilJ.copiedTools;
+package soilj.copiedTools;
 import ij.IJ;
 import ij.ImagePlus;
 import ij.ImageStack;

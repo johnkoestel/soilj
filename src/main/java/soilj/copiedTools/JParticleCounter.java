@@ -1,4 +1,4 @@
-package SoilJ.copiedTools;
+package soilj.copiedTools;
 /**
  * ParticleCounter Copyright 2009 2010 2011 Michael Doube
  * 

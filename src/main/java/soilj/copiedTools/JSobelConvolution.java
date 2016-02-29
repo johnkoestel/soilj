@@ -1,4 +1,4 @@
-package SoilJ.copiedTools;
+package soilj.copiedTools;
 /**
  * <p>Title: Sobel Folding 3D Plugin for ImageJ</p>
  *

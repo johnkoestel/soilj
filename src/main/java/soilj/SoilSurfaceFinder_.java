@@ -1,10 +1,10 @@
-package SoilJ;
+package soilj;
 import ij.ImagePlus;
 import ij.plugin.PlugIn;
-import SoilJ.tools.InputOutput;
-import SoilJ.tools.MenuWaiter;
-import SoilJ.tools.MorphologyAnalyzer;
-import SoilJ.tools.ObjectDetector;
+import soilj.tools.InputOutput;
+import soilj.tools.MenuWaiter;
+import soilj.tools.MorphologyAnalyzer;
+import soilj.tools.ObjectDetector;
 
 import java.io.File;
 

@@ -1,9 +1,9 @@
-package SoilJ;
+package soilj;
 import ij.ImagePlus;
 import ij.ImageStack;
 import ij.plugin.PlugIn;
 import ij.process.ImageProcessor;
-import SoilJ.tools.InputOutput;
+import soilj.tools.InputOutput;
 
 import java.io.File;
 

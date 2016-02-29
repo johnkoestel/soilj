@@ -1,9 +1,9 @@
-package SoilJ;
+package soilj;
 
 import ij.ImagePlus;
 import ij.plugin.PlugIn;
-import SoilJ.tools.InputOutput;
-import SoilJ.tools.MorphologyAnalyzer;
+import soilj.tools.InputOutput;
+import soilj.tools.MorphologyAnalyzer;
 
 import java.io.File;
 
